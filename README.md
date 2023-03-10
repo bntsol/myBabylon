@@ -46,7 +46,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/set
 * plane : yz평면 기준, ground : xz평면 기준, tessellation : 도형을 만드는 옆면(?)의 갯수
 
 
-Step 7. Features - Deep Dive - Mesh - Creating Meshes - Create Parametric Meshes 
+7단계 : Features - Deep Dive - Mesh - Creating Meshes - Create Parametric Meshes 
 
 https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/param
 
