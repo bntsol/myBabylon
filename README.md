@@ -1,19 +1,19 @@
 # myBabylon
 
-### 1단계 : Your Journey Starts Here
+### Step1 : Your Journey Starts Here
 
 https://doc.babylonjs.com/journey/theFirstStep 
 
-### 2단계 : Features - Starter Scene Code
+### Step 2 : Features - Starter Scene Code
 
 https://doc.babylonjs.com/features/starterSceneCode
 
-### 3단계 : Features - Introduction - Firsts
+### Step 3 : Features - Introduction - Firsts
 
 https://doc.babylonjs.com/features/introductionToFeatures/chap1
 
 
-### 4단계 : Features - Deep Dive - Cameras - Camera Introduction (Arc Rotate Camera) 
+### Step 4 : Features - Deep Dive - Cameras - Camera Introduction (Arc Rotate Camera) 
 
 https://doc.babylonjs.com/features/featuresDeepDive/cameras/camera_introduction (카메라 설정)
 
@@ -26,7 +26,7 @@ Math.PI / 2.5 : 베타값(위도 방향 회전, radian 단위)
 10            : 반경  (목표물로부터의 거리) 
 
 
-### 5단계 : Tools and Resources - Utility Functions - Display Axes
+### Step 5 : Tools and Resources - Utility Functions - Display Axes
 
 https://playground.babylonjs.com/#T8UQTA (X/Y/Z 축에 대한 이해)
 
@@ -37,7 +37,7 @@ X축 : red, Y축 : green, Z축 : Blue
 예시 : const localAxes = new BABYLON.AxesViewer(scene, 1);  // 축의 길이를 1로 설정
 
 
-### 6단계 : Features - Deep Dive - Mesh - Creating Meshes - Create Set Shapes (기본 도형 만들기)
+### Step 6 : Features - Deep Dive - Mesh - Creating Meshes - Create Set Shapes (기본 도형 만들기)
 
 https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/set
 
@@ -46,7 +46,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/set
 * plane : yz평면 기준, ground : xz평면 기준, tessellation : 도형을 만드는 옆면(?)의 갯수
 
 
-### 7단계 : Features - Deep Dive - Mesh - Creating Meshes - Create Parametric Meshes 
+### Step 7 : Features - Deep Dive - Mesh - Creating Meshes - Create Parametric Meshes 
 
 https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/param
 
@@ -58,10 +58,18 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/param
 
 실습예제 : https://playground.babylonjs.com/#DKAFIL (화살표 만들기)
 
-### 8단계 : 3D 도형 연습
+### Step 8 : 3D 도형 연습
 
 실습예제 : https://playground.babylonjs.com/#7TDWAE#1 (40 x 40개의 random 실린더를 생성하고, random값에 따라 높이와 색상 부여)
 
+### Further Study
+
+Step 9 : Creating A Tiled Ground : https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/set/tiled_ground
+Step 10 : Meshing Transformations : https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms
+Step 11 : Levels of Detail (LOD) : https://doc.babylonjs.com/features/featuresDeepDive/mesh/LOD
+Step 12 : Simplifying Meshes With Auto-LOD : https://doc.babylonjs.com/features/featuresDeepDive/mesh/simplifyingMeshes
+Step 13 : Trail Mesh : https://doc.babylonjs.com/features/featuresDeepDive/mesh/trailMesh
+Step 14 : Dynamic Terrain : https://doc.babylonjs.com/communityExtensions/dynamicTerrains
 
 
 
