@@ -65,10 +65,15 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/param
 ### Further Study
 
 Step 9 : Creating A Tiled Ground : https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/set/tiled_ground
+
 Step 10 : Meshing Transformations : https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms
+
 Step 11 : Levels of Detail (LOD) : https://doc.babylonjs.com/features/featuresDeepDive/mesh/LOD
+
 Step 12 : Simplifying Meshes With Auto-LOD : https://doc.babylonjs.com/features/featuresDeepDive/mesh/simplifyingMeshes
+
 Step 13 : Trail Mesh : https://doc.babylonjs.com/features/featuresDeepDive/mesh/trailMesh
+
 Step 14 : Dynamic Terrain : https://doc.babylonjs.com/communityExtensions/dynamicTerrains
 
 
