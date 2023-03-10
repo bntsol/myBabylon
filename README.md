@@ -18,8 +18,11 @@ https://doc.babylonjs.com/features/introductionToFeatures/chap1
 https://doc.babylonjs.com/features/featuresDeepDive/cameras/camera_introduction (카메라 설정)
 
 예시 : const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 2, Math.PI / 2.5, 10, new BABYLON.Vector3(0, 0, 0));
+
 -Math.PI / 2  : 알파값(세로 방향 회전, radian 단위, 반시계 방향)
+
 Math.PI / 2.5 : 베타값(위도 방향 회전, radian 단위)
+
 10            : 반경  (목표물로부터의 거리) 
 
 
@@ -28,7 +31,9 @@ Math.PI / 2.5 : 베타값(위도 방향 회전, radian 단위)
 https://playground.babylonjs.com/#T8UQTA (X/Y/Z 축에 대한 이해)
 
 * Axes Viewer
+
 X축 : red, Y축 : green, Z축 : Blue
+
 예시 : const localAxes = new BABYLON.AxesViewer(scene, 1);  // 축의 길이를 1로 설정
 
 
