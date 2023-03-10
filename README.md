@@ -1,32 +1,55 @@
 # myBabylon
 
-Step 1. Your Journey Starts Here
+1단계 : Your Journey Starts Here
 
-https://doc.babylonjs.com/journey/theFirstStep
+https://doc.babylonjs.com/journey/theFirstStep 
 
-Step 2. Features - Starter Scene Code
+2단계 : Features - Starter Scene Code
 
 https://doc.babylonjs.com/features/starterSceneCode
 
-Step 3. Features - Introduction - Firsts
+3단계 : Features - Introduction - Firsts
 
 https://doc.babylonjs.com/features/introductionToFeatures/chap1
 
-Step 4. Features - Deep Dive - Cameras - Camera Introduction (Arc Rotate Camera) 
 
-https://doc.babylonjs.com/features/featuresDeepDive/cameras/camera_introduction
+4단계 : Features - Deep Dive - Cameras - Camera Introduction (Arc Rotate Camera) 
 
-Step 5. Tools and Resources - Utility Functions - Display Axes
+https://doc.babylonjs.com/features/featuresDeepDive/cameras/camera_introduction (카메라 설정)
 
-https://playground.babylonjs.com/#T8UQTA
+예시 : const camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 2, Math.PI / 2.5, 10, new BABYLON.Vector3(0, 0, 0));
+-Math.PI / 2  : 알파값(세로 방향 회전, radian 단위, 반시계 방향)
+Math.PI / 2.5 : 베타값(위도 방향 회전, radian 단위)
+10            : 반경  (목표물로부터의 거리) 
 
-Step 6. Features - Deep Dive - Mesh - Creating Meshes - Create Set Shapes
+
+5단계 : Tools and Resources - Utility Functions - Display Axes
+
+https://playground.babylonjs.com/#T8UQTA (X/Y/Z 축에 대한 이해)
+
+* Axes Viewer
+X축 : red, Y축 : green, Z축 : Blue
+예시 : const localAxes = new BABYLON.AxesViewer(scene, 1);  // 축의 길이를 1로 설정
+
+
+6단계 : Features - Deep Dive - Mesh - Creating Meshes - Create Set Shapes (기본 도형 만들기)
 
 https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/set
 
-Step 7. Features - Deep Dive - Mesh - Creating Meshes - Create Parametruc Meshes
+실습예제 : https://playground.babylonjs.com/#6XIT28#3455 (Meshes)
+
+* plane : yz평면 기준, ground : xz평면 기준, tessellation : 도형을 만드는 옆면(?)의 갯수
+
+
+Step 7. Features - Deep Dive - Mesh - Creating Meshes - Create Parametric Meshes 
 
 https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/param
+
+실습예제 : https://playground.babylonjs.com/#6XIT28#3459  (lines)
+
+실습예제 : https://www.notion.so/Babylon-6012ba84ec734c578deb1af9e56e2bba  (dashed lines) 
+
+* 대시와 간격의 실제 길이는 dashNb 에 의해 설정된 개수 와 실제 크기가 아닌 dashSize 와 * gapSize* 의 비율 에 따라 결정
 
 
 
