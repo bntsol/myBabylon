@@ -52,7 +52,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/param
 
 실습예제 : https://playground.babylonjs.com/#6XIT28#3459  (lines)
 
-실습예제 : https://www.notion.so/Babylon-6012ba84ec734c578deb1af9e56e2bba  (dashed lines) 
+실습예제 : https://playground.babylonjs.com/#6XIT28#3460  (dashed lines) 
 
 * 대시와 간격의 실제 길이는 dashNb 에 의해 설정된 개수 와 실제 크기가 아닌 dashSize 와 * gapSize* 의 비율 에 따라 결정
 
